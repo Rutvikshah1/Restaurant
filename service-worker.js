@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Rutvikshah1/Restaurant/precache-manifest.68924b76156226327e3403932e222a2c.js"
+  "/Rutvikshah1/Restaurant/precache-manifest.fd8e2dfedfd99f1f5faecf83ca4d3052.js"
 );
 
 workbox.clientsClaim();
