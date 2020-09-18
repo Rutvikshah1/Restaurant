@@ -1,0 +1,75 @@
+@import url('https://css.gg/facebook.css');
+
+.footer {
+  display: grid;
+  grid-template-rows: 20rem;
+  grid-template-columns: repeat(4, minmax(3.5rem, 1fr));
+  background-color: black;
+  padding: 3rem;
+
+  @media only screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--color-brown);
+    margin-top: 2rem;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__paragraph {
+    color: white;
+    width: 90%;
+    padding-top: 10%;
+    padding-left: 10%;
+
+    @media only screen and (max-width: 800px) {
+      margin-top: 0rem;
+      padding: 3rem;
+      font-size: 2.5rem;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__col-one {
+    border-right: 1px solid var(--color-brown);
+
+    @media only screen and (max-width: 800px) {
+      border-right: none;
+      border-bottom: 1px solid var(--color-brown);
+    }
+  }
+  &__col-two {
+    border-right: 1px solid var(--color-brown);
+
+    @media only screen and (max-width: 800px) {
+      border-right: none;
+      border-bottom: 1px solid var(--color-brown);
+    }
+  }
+
+  &__col-three {
+    border-right: 1px solid var(--color-brown);
+
+    @media only screen and (max-width: 800px) {
+      border-right: none;
+      border-bottom: 1px solid var(--color-brown);
+    }
+  }
+}

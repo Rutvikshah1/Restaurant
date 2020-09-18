@@ -1,0 +1,58 @@
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('../../../assets/bgimg1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+
+  &__text {
+    font-family: Cinzel;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    &--primary {
+      font-size: 6rem;
+      font-weight: 300;
+
+      @media only screen and (max-width: 1000px) {
+        font-size: 5rem;
+      }
+
+      @media only screen and (max-width: 750px) {
+        font-size: 4rem;
+      }
+
+      @media only screen and (max-width: 600px) {
+        font-size: 3rem;
+      }
+    }
+
+    &--secondary {
+      font-size: 3rem;
+      align-self: center;
+      font-weight: 100;
+
+      @media only screen and (max-width: 1000px) {
+        font-size: 2.8rem;
+      }
+
+      @media only screen and (max-width: 750px) {
+        font-size: 2.5rem;
+      }
+
+      @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+      }
+    }
+  }
+}

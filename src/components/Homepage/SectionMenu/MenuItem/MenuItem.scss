@@ -1,0 +1,19 @@
+.item {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 2rem;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+
+  &__title {
+    width: 75%;
+  }
+
+  &__price {
+  }
+}

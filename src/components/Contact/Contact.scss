@@ -1,0 +1,64 @@
+.contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../../assets/bgimg1.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: bottom;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    height: 66%;
+    width: 70%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .form {
+      height: 66%;
+      border: none;
+      padding: 1rem;
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 500px) {
+      .form {
+        padding: 2rem;
+        width: 100%;
+        border: none;
+      }
+    }
+  }
+  input[type='text'],
+  textarea,
+  input[type='submit'] {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 1px solid var(--color-brown);
+    font-family: 'Montserrat';
+    line-height: 1.6;
+    font-size: 1.4rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    input[type='text'],
+    textarea,
+    input[type='submit'] {
+      width: 100%;
+      padding: 1.2rem 2rem;
+      margin: 1rem 0;
+      display: inline-block;
+      font-family: 'Montserrat';
+      line-height: 1.6;
+      font-size: 1.4rem;
+    }
+  }
+}
